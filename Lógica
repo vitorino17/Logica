@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMs0kSBa/CAS0zf8zC6OftS",
+      "authorship_tag": "ABX9TyN4O8IjxdORqCCgg9bamBoN",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -36,6 +36,15 @@
       }
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Crie uma lista com os nomes de 5 frutas e imprima o terceiro elemento.\n"
+      ],
+      "metadata": {
+        "id": "6e932Fhl9mvy"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "frutas = (\"maça\", \"pera\", \"manga\", \"kiwi\", \"uva\")\n",
@@ -48,7 +57,7 @@
         "id": "rshVYHsApztL",
         "outputId": "b51e7483-11c3-4f23-dc7c-67c637bb2d8c"
       },
-      "execution_count": 15,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -58,6 +67,15 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Substitua o segundo elemento da lista de frutas por \"Abacaxi\".\n"
+      ],
+      "metadata": {
+        "id": "JDSE99-R9oBK"
+      }
     },
     {
       "cell_type": "code",
@@ -72,6 +90,15 @@
       "outputs": []
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Adicione \"Melancia\" ao final da lista.\n"
+      ],
+      "metadata": {
+        "id": "dwOYZywn9q7U"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "frutas.append(\"Melancia\")\n",
@@ -84,6 +111,15 @@
       "outputs": []
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Insira \"Morango\" na primeira posição da lista.\n"
+      ],
+      "metadata": {
+        "id": "zZk-kl4o9tPE"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "frutas.insert(0,\"maça\")\n",
@@ -94,6 +130,15 @@
       },
       "execution_count": null,
       "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Remova o último elemento da lista e imprima o nome removido.\n"
+      ],
+      "metadata": {
+        "id": "mrGLOmoJ9vnM"
+      }
     },
     {
       "cell_type": "code",
@@ -109,6 +154,15 @@
       "outputs": []
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Ordene uma lista de números [10, 2, 34, 5, 8] em ordem crescente.\n"
+      ],
+      "metadata": {
+        "id": "VI-2mq4j9xyb"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "n = [10, 2, 34, 5, 8]\n",
@@ -122,7 +176,7 @@
         "id": "--cMxxsRskDL",
         "outputId": "5d38abee-65a6-43cc-d5ce-016055a7213a"
       },
-      "execution_count": 16,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -132,6 +186,15 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Inverta a ordem dos elementos de uma lista de nomes.\n"
+      ],
+      "metadata": {
+        "id": "UyOTC1MO9z-k"
+      }
     },
     {
       "cell_type": "code",
@@ -147,7 +210,7 @@
         "id": "l3F3rJO9sxnT",
         "outputId": "0e262e1f-507f-4c7f-8165-3e672fc41a35"
       },
-      "execution_count": 17,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -157,6 +220,15 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Dada a lista letras = ['a', 'b', 'c', 'd', 'e'], use fatiamento para exibir apenas as 3 primeiras.\n"
+      ],
+      "metadata": {
+        "id": "025ftmJG92XU"
+      }
     },
     {
       "cell_type": "code",
@@ -171,7 +243,7 @@
         "id": "ShkmHdGItZau",
         "outputId": "1179d63e-0498-422a-de4b-020c4e913eb4"
       },
-      "execution_count": 18,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -181,6 +253,15 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Crie uma lista vazia e peça ao usuário para digitar 3 números, adicionando-os um a um.\n"
+      ],
+      "metadata": {
+        "id": "6XD9XAyD948k"
+      }
     },
     {
       "cell_type": "code",
@@ -199,7 +280,7 @@
         "id": "KTuy2TrCtlRp",
         "outputId": "6a65f674-21fb-4a17-ba63-d797df1e3c36"
       },
-      "execution_count": 20,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -212,6 +293,15 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Verifique se o número 10 está presente na lista [1, 5, 10, 15, 20].\n"
+      ],
+      "metadata": {
+        "id": "f5lSddIq96gl"
+      }
     },
     {
       "cell_type": "code",
@@ -229,7 +319,7 @@
         "id": "4bVEQ7ewuTHc",
         "outputId": "aac7bcb1-e1e4-4e66-ff34-62096bcee826"
       },
-      "execution_count": 22,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -247,6 +337,15 @@
       ],
       "metadata": {
         "id": "pIlZIZbGsxRt"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Dada uma lista de números, imprima apenas os valores pares.\n"
+      ],
+      "metadata": {
+        "id": "y02FuxMz9-Ut"
       }
     },
     {
@@ -280,6 +379,15 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Crie uma lista com os quadrados dos números de 1 a 10.\n"
+      ],
+      "metadata": {
+        "id": "I9MQhYQq-AZ1"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "quadrados = [ x**2 for x in range(1, 11)]\n",
@@ -302,6 +410,15 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Receba uma lista de notas e calcule a média aritmética.\n"
+      ],
+      "metadata": {
+        "id": "XC9QPKfp-CoN"
+      }
     },
     {
       "cell_type": "code",
@@ -327,6 +444,15 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Encontre o maior e o menor valor em uma lista de temperaturas.\n"
+      ],
+      "metadata": {
+        "id": "pUIomIOw-D_d"
+      }
     },
     {
       "cell_type": "code",
@@ -355,6 +481,15 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Remova todos os elementos duplicados de uma lista: [1, 2, 2, 3, 4, 4, 5].\n"
+      ],
+      "metadata": {
+        "id": "y_jMO6Iw-F9N"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "lista = [ 1, 2, 2, 3, 4, 4, 5]\n",
@@ -380,10 +515,19 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Dada uma lista de palavras, crie uma nova lista contendo apenas as que têm mais de 5 letras.\n"
+      ],
+      "metadata": {
+        "id": "8aQbHdsV-HiV"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "palavras = [\"Pyhton\", \"Casa\", \"Algoritmo\", \"sol\", \"Computador\"]\n",
-        "longas = [p for p in palavras if len(p)>5]\n",
+        "longas = [x for x in palavras if len(x)>5]\n",
         "print(longas)"
       ],
       "metadata": {
@@ -391,7 +535,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Xn3knMIxtSrX",
-        "outputId": "a2ab8195-518a-4f42-b037-3b216658d37e"
+        "outputId": "a55b501c-c53a-4f95-eab2-399b383155dc"
       },
       "execution_count": null,
       "outputs": [
@@ -405,105 +549,153 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Junte duas listas de nomes em uma única lista chamada todos_alunos."
+      ],
+      "metadata": {
+        "id": "oMyALhpQ-z5o"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
-        "turma_a = [\"Ana\", \"Bruno\"]\n",
-        "turma_b = [\"Carla\", \"Daniel\"]\n",
-        "turma_alunos = turma_a + turma_b\n",
-        "print(turma_alunos)"
+        "turma_a = [\"Ana\", \"Bruno\", \"Carlos\"]\n",
+        "turma_b = [\"Daniela\", \"Eduardo\"]\n",
+        "todos_alunos = turma_a + turma_b\n",
+        "print(todos_alunos)"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "0pTf4F6Au4Mi",
-        "outputId": "51e253a8-23a6-4cd2-c2ab-5dd047ff01e9"
+        "id": "pWACoKg0-2fR",
+        "outputId": "954b27cf-a4e6-456d-e902-4343953385fc"
       },
-      "execution_count": null,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "['Ana', 'Bruno', 'Carla', 'Daniel']\n"
+            "['Ana', 'Bruno', 'Carlos', 'Daniela', 'Eduardo']\n"
           ]
         }
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Conte quantas vezes a palavra \"Python\" aparece em uma lista de strings.\n"
+      ],
+      "metadata": {
+        "id": "GAjImmkE-67J"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
-        "strings = [\"Pyhton\", \"Java\", \" C++\", \"Pyhton\", \"Python\"]\n",
-        "quantidade = strings.count(\"Python\")\n",
-        "print(quantidade)"
+        "palavras = [\"Java\", \"Python\", \"C++\", \"Python\", \"JavaScript\"]\n",
+        "quantidade = palavras.count(\"Python\")\n",
+        "\n",
+        "print(f\"A palavra 'Python' aparece {quantidade} vezes.\")\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "K6NtCabLwp3d",
-        "outputId": "2318e29e-2430-44ea-a953-492fcc1d6194"
+        "id": "RBHbKdlR-83R",
+        "outputId": "3b64b4d3-268b-4ed3-f241-231a8406ccdf"
       },
-      "execution_count": null,
+      "execution_count": 27,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "1\n"
+            "A palavra 'Python' aparece 2 vezes.\n"
           ]
         }
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Dada uma lista de números, crie duas listas separadas: uma para positivos e outra para negativos.\n"
+      ],
+      "metadata": {
+        "id": "ghzGZ-oF_B8Z"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
-        "valoes = [-10, 15, -2, 8, 0, -5, 20]\n",
-        "positivos = [x for x in valoes if x >= 0]\n",
-        "negativos = [ x for x in valoes if x < 0]\n",
-        "print(positivos)\n",
-        "print(negativos)"
+        "numeros = [15, -7, 0, 42, -3, -10, 8]\n",
+        "positivos = []\n",
+        "negativos = []\n",
+        "\n",
+        "for numero in numeros:\n",
+        "    if numero > 0:\n",
+        "        positivos.append(numero)\n",
+        "    elif numero < 0:\n",
+        "        negativos.append(numero)\n",
+        "\n",
+        "print(\"Positivos:\", positivos)\n",
+        "print(\"Negativos:\", negativos)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "i3HDSHhDzcrD",
-        "outputId": "04e18b3b-50c8-4d80-9608-fdb99e026011"
+        "id": "ANcud9lv_E4J",
+        "outputId": "8723533e-2cde-46f7-8a54-89aedd481b53"
       },
-      "execution_count": null,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "[15, 8, 0, 20]\n",
-            "[-10, -2, -5]\n"
+            "Positivos: [15, 42, 8]\n",
+            "Negativos: [-7, -3, -10]\n"
           ]
         }
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Transforme uma lista de nomes em \"CAIXA ALTA\" usando um loop.\n"
+      ],
+      "metadata": {
+        "id": "IFBiqAoE_Qw6"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
-        "nomes = [\"Ana\", \"Bruno\", \"Carla\", \"Daniel\"]\n",
-        "nomes_maiusculos = [nome.upper() for nome in nomes]\n",
-        "print(nomes_maiusculos)"
+        "nomes = [\"joão\", \"maria\", \"pedro\", \"letícia\"]\n",
+        "nomes_maiusculos = []\n",
+        "\n",
+        "for nome in nomes:\n",
+        "    nomes_maiusculos.append(nome.upper())\n",
+        "\n",
+        "print(nomes_maiusculos)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "XdO1Bvwe-0PI",
-        "outputId": "a6860f65-05a8-488f-f1e7-0b3ac40c14ac"
+        "id": "YxbytWLw_RLh",
+        "outputId": "d3e15a5f-2140-435b-c371-b20e869387bc"
       },
-      "execution_count": null,
+      "execution_count": 42,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "['ANA', 'BRUNO', 'CARLA', 'DANIEL']\n"
+            "['JOAO', 'MARIA', 'PEDRO', 'LETÍCIA']\n"
           ]
         }
       ]
@@ -519,13 +711,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 33,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "7mkFK8R4hzZg",
-        "outputId": "c4d5f4e4-13d0-41ae-f053-1c455f51c40e"
+        "outputId": "f94b79eb-6105-4b71-f9a8-f4f7d8d91abd",
+        "collapsed": true
       },
       "outputs": [
         {
@@ -589,8 +782,250 @@
         "    writer = csv.writer(f)\n",
         "    writer.writerows(estoque_data)\n",
         "\n",
-        "print(\"Arquivos gerados com sucesso no ambiente local!\")\n"
+        "print(\"Arquivos gerados com sucesso no ambiente local!\")\n",
+        "# Re-execution trigger"
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Leitura Simples: Leia o arquivo alunos.txt e armazene os nomes em uma lista. Imprima a quantidade total de alunos."
+      ],
+      "metadata": {
+        "id": "sNOaW9dwAk1E"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "with open('alunos.txt', 'r') as f:\n",
+        "    alunos = [linha.strip() for linha in f.readlines()]\n",
+        "\n",
+        "print(f\"Total de alunos lidos: {len(alunos)}\")\n",
+        "# Saída esperada: Total de alunos lidos: 5"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jKqR5K3J_qPr",
+        "outputId": "3f379c9f-98c6-4ce7-a7af-8ea8602e6f3d"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total de alunos lidos: 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Busca em Arquivo: Peça ao aluno para digitar um nome e verifique se ele está na lista lida de alunos.txt.\n"
+      ],
+      "metadata": {
+        "id": "syYHBBgeAn2s"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"Digite o nome para buscar: \")\n",
+        "if nome in alunos:\n",
+        "  print(f\"O {nome} está na lista \")\n",
+        "else:\n",
+        "  print(f\"O {nome} não está na lista \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hM7TdMpWApY0",
+        "outputId": "b2aad1f7-307d-4aad-b5cf-1ec4ad41b7e1"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o nomepara buscar: Guilherme\n",
+            "O Guilherme não está na lista \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Processamento de CSV: Leia o arquivo notas.csv. Armazene apenas as notas na lista e calcule a média da turma.\n"
+      ],
+      "metadata": {
+        "id": "28yAJUqDBRa5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import csv\n",
+        "\n",
+        "notas = []\n",
+        "\n",
+        "with open(\"notas.csv\", \"r\") as f:\n",
+        "  leitor = csv.reader(f)\n",
+        "  next(leitor)\n",
+        "\n",
+        "  for linha in leitor:\n",
+        "    notas.append(float(linha[1]))\n",
+        "\n",
+        "media = sum(notas) / len(notas)\n",
+        "print(f\"A média da turma é: {media:.2f}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yaaMNAdSBUq9",
+        "outputId": "e95cc6ba-f444-4ff4-e945-608924b483f8"
+      },
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A média da turma é: 7.20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Filtro de Dados: No arquivo notas.csv, identifique e liste os alunos que tiraram nota acima de 7.0.\n"
+      ],
+      "metadata": {
+        "id": "InlMp06HDRKU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import csv\n",
+        "\n",
+        "alunos_aprovados = []\n",
+        "\n",
+        "with open(\"notas.csv\", \"r\") as f:\n",
+        "  leitor = csv.reader(f)\n",
+        "  next(leitor)\n",
+        "\n",
+        "  for linha in leitor:\n",
+        "    nome = linha[0]\n",
+        "    nota = float(linha[1])\n",
+        "\n",
+        "    if nota > 7.0:\n",
+        "      alunos_aprovados.append(nome)\n",
+        "\n",
+        "print(f\"Alunos aprovados {alunos_aprovados}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JLiHJ268DS1E",
+        "outputId": "c6eedb67-4191-48bc-c457-5ab1a50c3110"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Alunos aprovados ['Ana', 'Maria', 'Beatriz']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Escrita de Resultado: Leia vendas.txt (contendo valores numéricos), calcule o total vendido e salve esse valor em um novo arquivo chamado relatorio.txt.\n"
+      ],
+      "metadata": {
+        "id": "eitjCA7pEtkX"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total_vendas = 0.0\n",
+        "\n",
+        "with open('vendas.txt', 'r') as f:\n",
+        "    for linha in f:\n",
+        "        total_vendas += float(linha.strip())\n",
+        "\n",
+        "with open('relatorio.txt', 'w') as f:\n",
+        "    f.write(f\"Total vendido: R$ {total_vendas:.2f}\")\n",
+        "\n",
+        "print(\"Arquivo 'relatorio.txt' gerado com sucesso!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "snze164IEvk3",
+        "outputId": "9a0227b9-b922-4d13-efa2-7882ce209f44"
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Arquivo 'relatorio.txt' gerado com sucesso!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Conversão de Tipos: Ao ler precos.txt, converta as strings para float e aplique um desconto de 10% em cada item, salvando em uma nova lista.\n"
+      ],
+      "metadata": {
+        "id": "OmzYagOuFHdN"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Maior Valor no Arquivo: Encontre o produto mais caro no arquivo estoque.csv.\n"
+      ],
+      "metadata": {
+        "id": "9jJCZDdjFKki"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Limpeza de Dados: Leia emails.txt. Algumas linhas estão em branco ou têm espaços. Crie uma lista apenas com os e-mails válidos.\n"
+      ],
+      "metadata": {
+        "id": "fOxzxhqyFMsK"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Desafio Final: Leia logs.txt, conte quantas vezes o erro \"404\" aparece e armazene os horários desses erros em uma lista.\n"
+      ],
+      "metadata": {
+        "id": "tMFrrdj3FOOK"
+      }
     }
   ]
 }
