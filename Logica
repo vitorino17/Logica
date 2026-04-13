@@ -1,0 +1,596 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMs0kSBa/CAS0zf8zC6OftS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/vitorino17/Logica/blob/main/Logica\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# LISTA 2 PT1"
+      ],
+      "metadata": {
+        "id": "nFLZMFW5pt3P"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frutas = (\"maça\", \"pera\", \"manga\", \"kiwi\", \"uva\")\n",
+        "print(f\"A terceira fruta da lista é: {frutas[2]}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rshVYHsApztL",
+        "outputId": "b51e7483-11c3-4f23-dc7c-67c637bb2d8c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A terceira fruta da lista é: manga\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frutas[1] = \"Abacaxi\"\n",
+        "print(frutas)"
+      ],
+      "metadata": {
+        "id": "wvKqmeXzrN6a"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frutas.append(\"Melancia\")\n",
+        "print(frutas)"
+      ],
+      "metadata": {
+        "id": "8hzyYdKLrj-6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frutas.insert(0,\"maça\")\n",
+        "print(frutas)\n"
+      ],
+      "metadata": {
+        "id": "LqEeWJL-rscK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruta_removida = frutas.pop()\n",
+        "print = (f\"A fruta removida da lista foi: {fruta_removida}\")\n",
+        "print(frutas)"
+      ],
+      "metadata": {
+        "id": "2wt1mvy6sJP7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = [10, 2, 34, 5, 8]\n",
+        "n.sort()\n",
+        "print(n)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "--cMxxsRskDL",
+        "outputId": "5d38abee-65a6-43cc-d5ce-016055a7213a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[2, 5, 8, 10, 34]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = [ \"Alice\", \"Fábio\", \"Pietro\", \"Manuella\"]\n",
+        "n.reverse()\n",
+        "print(n)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "l3F3rJO9sxnT",
+        "outputId": "0e262e1f-507f-4c7f-8165-3e672fc41a35"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Manuella', 'Pietro', 'Fábio', 'Alice']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "letras = ['a', 'b', 'c', 'd', 'e']\n",
+        "print(letras[:3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ShkmHdGItZau",
+        "outputId": "1179d63e-0498-422a-de4b-020c4e913eb4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['a', 'b', 'c']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lista = []\n",
+        "for i in range(3):\n",
+        "  n = int(input(f\"Digite {i+1}º número:\"))\n",
+        "  lista.append(n)\n",
+        "\n",
+        "print(f\"Seus números são :{lista}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KTuy2TrCtlRp",
+        "outputId": "6a65f674-21fb-4a17-ba63-d797df1e3c36"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite 1º número:1\n",
+            "Digite 2º número:2\n",
+            "Digite 3º número:3\n",
+            "Seus números são :[1, 2, 3]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lista = [1, 5, 10, 15, 20]\n",
+        "if 10 in lista:\n",
+        "  print(\"O número 10 está na lista\")\n",
+        "else:\n",
+        "  print(\"O número 10 não está na lista\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4bVEQ7ewuTHc",
+        "outputId": "aac7bcb1-e1e4-4e66-ff34-62096bcee826"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "O número 10 está na lista\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# LISTA 2 PT2"
+      ],
+      "metadata": {
+        "id": "pIlZIZbGsxRt"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+        "for num in num:\n",
+        "  if num % 2 == 0:\n",
+        "    print(num)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cwtsb-GsmNwo",
+        "outputId": "8817d1f7-814b-4ef7-9f67-5bd07d0491a5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "quadrados = [ x**2 for x in range(1, 11)]\n",
+        "print(quadrados)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "b4HmKfannPNx",
+        "outputId": "7d7961d1-d096-4572-b77b-c02de40d88b3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "notas = [ 7.5 , 8.0, 6.0, 9.0]\n",
+        "media = sum(notas) / len(notas)\n",
+        "print(f\"A média é; {media}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WDMzvGcGn4q5",
+        "outputId": "d44d9ef5-1ae9-4508-dfcb-42967e147b50"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A média é; 7.625\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temp = [22, 10, 30, 25, 18, 12]\n",
+        "maior = max(temp)\n",
+        "menor = min(temp)\n",
+        "print(f\"Maior: {maior}, Menor: {menor}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ubv6t3LZoMZS",
+        "outputId": "25d4bdf0-91d1-48a0-b31a-46dc120721af"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Maior: 30, Menor: 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lista = [ 1, 2, 2, 3, 4, 4, 5]\n",
+        "sem_duplicados = list(set(lista))\n",
+        "print (sem_duplicados)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gEhgKI3yr1WI",
+        "outputId": "36f9399d-99db-413c-b5e2-17c817532e4a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "palavras = [\"Pyhton\", \"Casa\", \"Algoritmo\", \"sol\", \"Computador\"]\n",
+        "longas = [p for p in palavras if len(p)>5]\n",
+        "print(longas)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xn3knMIxtSrX",
+        "outputId": "a2ab8195-518a-4f42-b037-3b216658d37e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Pyhton', 'Algoritmo', 'Computador']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "turma_a = [\"Ana\", \"Bruno\"]\n",
+        "turma_b = [\"Carla\", \"Daniel\"]\n",
+        "turma_alunos = turma_a + turma_b\n",
+        "print(turma_alunos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0pTf4F6Au4Mi",
+        "outputId": "51e253a8-23a6-4cd2-c2ab-5dd047ff01e9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Ana', 'Bruno', 'Carla', 'Daniel']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "strings = [\"Pyhton\", \"Java\", \" C++\", \"Pyhton\", \"Python\"]\n",
+        "quantidade = strings.count(\"Python\")\n",
+        "print(quantidade)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K6NtCabLwp3d",
+        "outputId": "2318e29e-2430-44ea-a953-492fcc1d6194"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valoes = [-10, 15, -2, 8, 0, -5, 20]\n",
+        "positivos = [x for x in valoes if x >= 0]\n",
+        "negativos = [ x for x in valoes if x < 0]\n",
+        "print(positivos)\n",
+        "print(negativos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i3HDSHhDzcrD",
+        "outputId": "04e18b3b-50c8-4d80-9608-fdb99e026011"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[15, 8, 0, 20]\n",
+            "[-10, -2, -5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nomes = [\"Ana\", \"Bruno\", \"Carla\", \"Daniel\"]\n",
+        "nomes_maiusculos = [nome.upper() for nome in nomes]\n",
+        "print(nomes_maiusculos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XdO1Bvwe-0PI",
+        "outputId": "a6860f65-05a8-488f-f1e7-0b3ac40c14ac"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ANA', 'BRUNO', 'CARLA', 'DANIEL']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# LISTA 2 PT3"
+      ],
+      "metadata": {
+        "id": "ga9XzHo3s3hD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7mkFK8R4hzZg",
+        "outputId": "c4d5f4e4-13d0-41ae-f053-1c455f51c40e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Arquivos gerados com sucesso no ambiente local!\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Executar esta célula para gerar os arquivos de exercícios\n",
+        "import csv\n",
+        "\n",
+        "# 1. alunos.txt\n",
+        "with open('alunos.txt', 'w') as f:\n",
+        "    f.write(\"Ana Silva\\nJoao Pedro\\nMaria Oliveira\\nLucas Souza\\nBeatriz Santos\")\n",
+        "\n",
+        "# 2. notas.csv\n",
+        "notas_data = [\n",
+        "    ['Nome', 'Nota'],\n",
+        "    ['Ana', '8.5'],\n",
+        "    ['Joao', '6.0'],\n",
+        "    ['Maria', '9.2'],\n",
+        "    ['Lucas', '4.5'],\n",
+        "    ['Beatriz', '7.8']\n",
+        "]\n",
+        "with open('notas.csv', 'w', newline='') as f:\n",
+        "    writer = csv.writer(f)\n",
+        "    writer.writerows(notas_data)\n",
+        "\n",
+        "# 3. vendas.txt\n",
+        "with open('vendas.txt', 'w') as f:\n",
+        "    f.write(\"150.00\\n200.50\\n50.25\\n10.00\\n99.90\")\n",
+        "\n",
+        "# 4. precos.txt\n",
+        "with open('precos.txt', 'w') as f:\n",
+        "    f.write(\"10.50\\n25.00\\n5.75\\n100.00\")\n",
+        "\n",
+        "# 5. matriz.txt\n",
+        "with open('matriz.txt', 'w') as f:\n",
+        "    f.write(\"1,2,3\\n4,5,6\\n7,8,9\")\n",
+        "\n",
+        "# 6. emails.txt\n",
+        "with open('emails.txt', 'w') as f:\n",
+        "    f.write(\"teste@gmail.com\\n  \\nadmin@empresa.com\\n\\nsuporte@site.com  \\n\")\n",
+        "\n",
+        "# 7. logs.txt\n",
+        "with open('logs.txt', 'w') as f:\n",
+        "    f.write(\"2023-10-01 10:00 - ERROR 404\\n2023-10-01 10:05 - INFO 200\\n2023-10-01 10:10 - ERROR 404\\n2023-10-01 10:15 - ERROR 500\")\n",
+        "\n",
+        "# 8. estoque.csv\n",
+        "estoque_data = [\n",
+        "    ['Produto', 'Preco'],\n",
+        "    ['Mouse', '50.00'],\n",
+        "    ['Teclado', '150.00'],\n",
+        "    ['Monitor', '800.00'],\n",
+        "    ['Cabo HDMI', '30.00']\n",
+        "]\n",
+        "with open('estoque.csv', 'w', newline='') as f:\n",
+        "    writer = csv.writer(f)\n",
+        "    writer.writerows(estoque_data)\n",
+        "\n",
+        "print(\"Arquivos gerados com sucesso no ambiente local!\")\n"
+      ]
+    }
+  ]
+}
